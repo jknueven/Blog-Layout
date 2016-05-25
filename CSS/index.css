@@ -1,0 +1,143 @@
+p {
+	font-family: courier;
+}
+
+h2 {
+	font-family: georgia;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: arial;
+	font-size: 15px;
+	font-style: italic;
+}
+
+h4 {
+	font-color: red;
+	font-size: 25px;
+	font-style: bold;
+}
+
+h5 {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.header {
+	background-image: url('../Images/header.jpg');
+	height: 200px;
+	width: 100%;
+	background-size: 100%;
+	background-position: 0px 40px 0px 0px;
+	overflow: hidden;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+	width: 990px;
+	margin: 0px auto;
+}
+.container .two {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin: 0px auto;
+}
+.column {
+	background-color: white;
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0px 0px 10px;
+	//margin:20px;
+	vertical-align: top;
+}
+
+.left {
+	display: inline-block;
+	width: 25%;
+	content: 90%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.right {
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	width: 60%;
+	margin-top: 3.5%;
+}
+
+.searchBox {
+	padding: 10px 20px;
+	margin-bottom: 10%;
+	text-align: center;
+	border: 4px solid grey;
+}
+.searchBox hover {
+	background-color: orange;
+}
+
+.form {
+	border-top: 2px solid grey;
+}
+
+.form input {
+	margin-top: 20px;
+}
+
+.left img {
+	max-width: 30%;
+	margin: 0px auto;
+	display: block;
+	margin-top: -50px;
+	border: 2px solid white;
+	border-radius: 55%;
+
+}
+
+.callout {
+	position: fixed;
+	padding: 1.8px;
+	top: 300px;
+	left: 100px;
+	z-index: -1;
+	border: 2px dotted black;
+}
+
+.two img {
+	align-content: center;
+	height: 70px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
